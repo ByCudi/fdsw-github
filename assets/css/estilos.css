@@ -8,14 +8,20 @@ body {
 /* Hero Section */
 
 #Hero-Section {
+  height: 100vh;
   background-image: url("../img/fondo11.jpg");
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25% 75%;
 }
 
 /* Mis trabajos */
+.foto1 {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 #Mis-trabajos .image-top {
   height: 250px;

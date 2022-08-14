@@ -22,13 +22,35 @@ body {
   background-size: cover;
   background-position: center;
 }
+.bg-info {
+  background-color: var(--primary-color) !important;
+}
+.image-top {
+  background-position: 25% 75%;
+}
 
-#Mis-trabajos .image-top {
-  height: 250px;
+#Mis-trabajos .image-top1 {
+  height: 400px;
+  background-color: var(--primary-color) !important;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
+#Mis-trabajos .image-top2 {
+  height: 400px;
+  background-color: var(--primary-color) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 75% 25%;
+}
+#Mis-trabajos .image-top3 {
+  height: 400px;
+  background-color: var(--primary-color) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40% 60%;
+}
+
 .btn-primary {
   background-color: var(--primary-color) !important;
   border-color: var(--primary-color) !important;
@@ -44,6 +66,10 @@ body {
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
+  }
+  .header {
+    width: 50%;
+    height: auto;
   }
 
   .navbar-brand {

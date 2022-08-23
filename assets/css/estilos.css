@@ -9,7 +9,7 @@ body {
 
 #Hero-Section {
   height: 100vh;
-  background-image: url("//assets/img/fondo11.jpg");
+  background-image: url("../img/fondo11.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25% 75%;
